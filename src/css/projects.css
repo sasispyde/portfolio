@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-container div {
+  margin: 10px;
+  padding: 20px;
+  border: 0.5px solid black;
+  border-radius: 15px;
+}
+@media (max-width: 750px){
+	.flex-container {
+	  flex-direction: column;
+	  text-align: center;
+	  justify-content: center;
+	}
+}
+
+@media (max-width: 900px){
+	.flex-container {
+	  justify-content: center;
+	}
+}

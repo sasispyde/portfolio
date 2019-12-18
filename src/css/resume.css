@@ -1,0 +1,35 @@
+.pdf-canvas {
+	text-align: center;
+	margin: auto;
+}
+.pdf-canvas canvas {
+	width: 100%;
+	height: auto;
+}
+.pdf-controlls-container{
+	margin: auto;
+}
+.pg-viewer-wrapper{
+	overflow: hidden;
+	border : 0.7px solid tomato;
+}
+
+.con {
+	text-align: center;
+}
+
+@media (max-width: 450px){
+	.pdf-canvas canvas {
+		width: 350px;
+		height: 400px;
+		text-align: center;
+		margin:auto;
+	}
+}
+
+@media (max-width: 320px){
+	.pdf-canvas canvas {
+		width: 300px;
+		height: auto;
+	}
+}

@@ -1,0 +1,59 @@
+
+a{
+	color: gray;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #ffb3b3;
+	border-radius: 15px 50px;  
+}
+
+.navbar-light .navbar-toggler{
+	border-color: rgba(0,0,0,0);
+}
+
+@media screen and (min-width: 900px) {
+  .nav-link{
+		color: gray;
+		font-family: 'Titillium Web', sans-serif;
+		text-align: center;
+		margin-left: 63px;
+   }
+}
+
+@media screen and (min-width: 1100px) {
+  .nav-link{
+		color: gray;
+		font-family: 'Titillium Web', sans-serif;
+		text-align: center;
+		margin-left: 82px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-link{
+		color: gray;
+		font-family: 'Titillium Web', sans-serif;
+		text-align: center;
+		margin-left: 100px;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+  .nav-link{
+		color: gray;
+		font-family: 'Titillium Web', sans-serif;
+		text-align: center;
+		margin-left: 113px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+  .nav-link{
+	color: gray;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+  }
+}

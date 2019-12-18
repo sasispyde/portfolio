@@ -1,0 +1,31 @@
+.CircularProgressbar{
+	width: 50%;
+}
+
+.col-4 {
+	margin-top: 10px;
+	padding: 20px;
+	text-align: center
+}
+
+.wrap{
+	width:100%;
+	margin:auto;
+	min-height:585px;
+}
+
+@media (max-width: 770px) {
+	.col-4{
+		flex: 0 0 50%;
+    	max-width: 50%;
+	}
+}
+
+@media (max-width: 425px) {
+	.col-4{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+}
+
+
